@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calendario</title>
+</head>
+<body>
+    <section class="calendarWrapper">
+        <header>
+                <nav>
+                    <img
+                        src="./logo-header.png"
+                        class="intraLogo"
+                    />
+                    <img
+                        src='https://res.cloudinary.com/diuxbqmn5/image/upload/v1677114497/himfg-logo_ewzx59.webp'
+                        class="himLogo"
+                        />
+                </nav>
+        </header>
+        <div class="letters">
+            <img src="./letras.png"/>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit voluptas, cupiditate architecto ullam quos voluptate suscipit nostrum earum dignissimos nulla impedit odio inventore excepturi officiis perspiciatis molestiae atque ex?</p>
+        <div class="calendar">
+            <div class="month"></div>
+            <div class="days"></div>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Cumpleañeros del día</h2>
+            <ul id="birthday-list"></ul>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

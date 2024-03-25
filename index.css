@@ -1,0 +1,100 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+header{
+    padding:2rem 0;
+}
+header nav{
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    width:90%;
+}
+.himLogo{
+    width:5%;
+}
+.intraLogo{
+    width:20%;
+}
+.calendarWrapper{
+    background: url('./fondo-body.webp') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height:100vh;
+}
+.calendar {
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.letters{
+    padding: 6rem 0;
+    margin-left: 5%;
+}
+p{
+    color:#fff;
+    font-size:2rem;
+    margin-left: 5%;
+    padding-bottom:6rem;
+    width:70%;
+}
+.month {
+    color:#fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.day {
+    background: #ffffffd2;
+    border-radius: 9px;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding:1rem;
+}
+.days{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:0.2rem;
+    width:100%;
+}
+/* Estilos para la ventana modal */
+.modal {
+    display: none; /* Oculta la ventana modal por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
