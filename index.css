@@ -31,14 +31,16 @@ header nav{
     background: url('./fondo-body.webp') no-repeat;
     background-position: bottom;
     background-size: cover;
-    height:100vh;
+    height:105vh;
+    padding:3rem 0;
 }
 .calendar , #nextMonthBtn{
     width: 30%;
-    margin-left: 5%;
     text-align: center;
+    margin-left: 5%;
 }
-#nextMonthBtn{
+#nextMonthBtn, #prevMonthBtn{
+    margin-left: 5%;
     border:1px solid #fff;
     color:#fff;
     background: none;

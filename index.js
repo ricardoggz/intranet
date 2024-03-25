@@ -4,18 +4,20 @@ document.addEventListener("DOMContentLoaded", function() {
     const birthdayModal = document.getElementById('birthdayModal');
     const closeBtns = document.querySelectorAll('.close');
     const nextMonthBtn = document.getElementById('nextMonthBtn');
+    const prevMonth = document.getElementById('prevMonthBtn');
     const calendarContainer = document.getElementById('calendarContainer');
     const announcement = document.getElementById('announcement');
 
     // Datos de ejemplo de cumpleañeros
     const birthdays = {
+        2: { // Febrero
+            14: ["Ana", "Juan"], // Cumpleaños el 14 de febrero
+            25: ["María"] // Cumpleaños el 25 de febrero
+        },
         3: { // Marzo
             5: ["Pedro"] // Cumpleaños el 5 de marzo
-        },
-        // Agrega más cumpleaños según sea necesario
-        4: { // Marzo
-            5: ["Pedro"] // Cumpleaños el 5 de abril
         }
+        // Agrega más cumpleaños según sea necesario
     };
 
     let currentDate = new Date(); // Inicialmente, el mes actual
@@ -56,8 +58,8 @@ document.addEventListener("DOMContentLoaded", function() {
             daysElement.appendChild(dayElement);
         }
 
-        // Mostrar u ocultar el calendario según si hay cumpleaños o no
-        if (Object.keys(birthdays).length > 0) {
+        // Mostrar u ocultar el calendario o el anuncio según si hay cumpleaños o no
+        if (Object.keys(birthdays[currentMonth] || {}).length > 0) {
             calendarContainer.style.display = 'block';
             announcement.style.display = 'none';
         } else {
@@ -84,6 +86,10 @@ document.addEventListener("DOMContentLoaded", function() {
         renderCalendar(currentDate); // Renderizar el calendario actualizado
     });
 
+    prevMonth.addEventListener('click', function() {
+        currentDate.setMonth(currentDate.getMonth() + - 1); // Avanzar al siguiente mes
+        renderCalendar(currentDate); // Renderizar el calendario actualizado
+    });
     // Cerrar la ventana modal al hacer clic en el botón de cerrar o fuera de ella
     closeBtns.forEach(function(btn) {
         btn.onclick = function() {
