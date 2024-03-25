@@ -90,13 +90,20 @@ p{
     border: 1px solid #888;
     width: 50%;
 }
+.modal-food-content{
+    background-color: #c8c8c8;
+    color:#000;
+}
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
+.modal-texts h2{
+    color:#fff;
+    font-size: 2rem;
+}
 .close:hover,
 .close:focus {
     color: black;
@@ -145,6 +152,9 @@ p{
     gap:3rem;
     list-style: none;
     width:100%;
+}
+.menuOptions li{
+    cursor:pointer;
 }
 @media (min-width:240px) and (max-width:900px){
     .header nav{
