@@ -33,10 +33,18 @@ header nav{
     background-size: cover;
     height:100vh;
 }
-.calendar {
+.calendar , #nextMonthBtn{
     width: 30%;
     margin-left: 5%;
     text-align: center;
+}
+#nextMonthBtn{
+    border:1px solid #fff;
+    color:#fff;
+    background: none;
+    cursor:pointer;
+    padding:0.5rem;
+    width: 15%;
 }
 .letters{
     padding: 6rem 0;
