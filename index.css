@@ -1,9 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin:0;
     padding: 0;
 }
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 header{
     padding:2rem 0;
 }
@@ -30,7 +37,6 @@ header nav{
     width: 30%;
     margin-left: 5%;
     text-align: center;
-    font-family: Arial, sans-serif;
 }
 .letters{
     padding: 6rem 0;
@@ -46,7 +52,7 @@ p{
 .month {
     color:#fff;
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 2rem;
     text-align: left;
 }
