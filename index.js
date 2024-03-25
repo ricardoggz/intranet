@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const dayElement = document.createElement('div');
         dayElement.classList.add('day');
         dayElement.textContent = i;
+        if (birthdays[i]) {
+            dayElement.classList.add('has-birthday'); // Añadir clase para los días con cumpleaños
+        }
         dayElement.addEventListener('click', function() {
             const day = parseInt(this.textContent);
             const birthdaysForDay = birthdays[day];
