@@ -130,6 +130,22 @@ p{
     margin: 0 auto;
     width:90%;
 }
+.menuOptions{
+    display: flex;
+    justify-content: end;
+    margin:0 auto;
+    padding:1rem;
+    width:80%;
+}
+.menuOptions ul{
+    color:#fff;
+    display:flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    gap:3rem;
+    list-style: none;
+    width:100%;
+}
 @media (min-width:240px) and (max-width:900px){
     .header nav{
         flex-direction: column;
