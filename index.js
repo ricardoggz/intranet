@@ -2,14 +2,20 @@ document.addEventListener("DOMContentLoaded", function() {
     const monthElement = document.querySelector('.month');
     const daysElement = document.querySelector('.days');
     const birthdayModal = document.getElementById('birthdayModal');
-    const birthdayList = document.getElementById('birthday-list');
-    const nextMonthBtn = document.getElementById('nextMonthBtn');
     const closeBtns = document.querySelectorAll('.close');
+    const nextMonthBtn = document.getElementById('nextMonthBtn');
+    const calendarContainer = document.getElementById('calendarContainer');
+    const announcement = document.getElementById('announcement');
 
     // Datos de ejemplo de cumpleañeros
     const birthdays = {
-        10: ["Juan", "María"],
-        15: ["Pedro", "Ana"]
+        3: { // Marzo
+            5: ["Pedro"] // Cumpleaños el 5 de marzo
+        },
+        // Agrega más cumpleaños según sea necesario
+        4: { // Marzo
+            5: ["Pedro"] // Cumpleaños el 5 de abril
+        }
     };
 
     let currentDate = new Date(); // Inicialmente, el mes actual
@@ -30,22 +36,33 @@ document.addEventListener("DOMContentLoaded", function() {
         // Obtener el número de días del mes actual
         const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
 
-        // Crear los elementos de los días del mes
+        // Crear los elementos de los días del mes actual
         for (let i = 1; i <= daysInMonth; i++) {
             const dayElement = document.createElement('div');
-            dayElement.classList.add('day');
+            dayElement.classList.add('day', 'current-month');
             dayElement.textContent = i;
-            if (birthdays[i]) {
-                dayElement.classList.add('has-birthday'); // Añadir clase para los días con cumpleaños
+            dayElement.dataset.month = currentMonth;
+            dayElement.dataset.year = currentYear;
+            if (birthdays[currentMonth] && birthdays[currentMonth][i]) {
+                dayElement.classList.add('has-birthday');
             }
             dayElement.addEventListener('click', function() {
                 const day = parseInt(this.textContent);
-                const birthdaysForDay = birthdays[day];
-                if (birthdaysForDay) {
-                    showModal(birthdayModal, birthdaysForDay);
-                }
+                const month = parseInt(this.dataset.month);
+                const year = parseInt(this.dataset.year);
+                const birthdaysForDay = birthdays[month] && birthdays[month][day] ? birthdays[month][day] : [];
+                showModal(birthdayModal, birthdaysForDay);
             });
             daysElement.appendChild(dayElement);
+        }
+
+        // Mostrar u ocultar el calendario según si hay cumpleaños o no
+        if (Object.keys(birthdays).length > 0) {
+            calendarContainer.style.display = 'block';
+            announcement.style.display = 'none';
+        } else {
+            calendarContainer.style.display = 'none';
+            announcement.style.display = 'block';
         }
     }
 
