@@ -151,6 +151,36 @@ document.addEventListener("DOMContentLoaded", function() {
                 "GUERRA ELVIRA ABIGAIL ARIADNA",
                 "VITE LOPEZ EDUARDO",
             ],
+            14:[
+                "ACOSTA VAZQUEZ FRANCISCO MIGUEL",
+                "CARDENAS SANCHEZ PATRICIA ADRIANA",
+                "MEDINA BOBADILLA BALERIA LILIANA",
+                "ALCANTARA HUERTA KARINA",
+                "MANGUILAR DIAZ MANUEL",
+                "CORRALES VELAZQUEZ MARTHA ADRIANA",
+            ],
+            15:[
+                "ANGELES FLORIANO TANIA",
+                "CASTRO LUNA BEATRIZ",
+                "CANELA RODRIGUEZ MELISSA NAZARET",
+                "OLIVARES CLAVIJO HECTOR",
+                "MUÑIZ ZAMARRIPA SERGIO",
+                "DIAZ SANCHEZ BLANCA MIREIL",
+            ],
+            17:[
+                "MALDONADO VELAZQUEZ MARIA DEL ROCIO                ",
+                "SANCHEZ CONTRERAS ORLANDO                ",
+                "PEREZ DIMAS IVAN                ",
+                "GUDIÑO HERNANDEZ BEATRIZ VERONICA                ",
+                "HERRERA MUCIÑO REINET ISRAEL                ",
+                "ARRIAGA GONZALEZ ADDY VIANNEY                ",
+                "AGUADO HUERTA GLORIA                ",
+                "VEGA GONZALEZ ELSA GLORIA                ",
+                "ISLAS ORTEGA ERIKA JANET                ",
+                "BRITO LINARES SUSAN CAROL                ",
+                "DURAN AGUILAR ANICETO RAUL                ",
+                "HERNANDEZ GONZALEZ JORGE HUGO                "
+            ],
         }
         // Agrega más cumpleaños según sea necesario
     };
