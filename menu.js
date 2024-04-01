@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Datos de ejemplo del menú
     const menu = [
-        "Patatas a la Riojana",
-        "Sopa de pollo",
-        "Judías verdes"
+        "Desayuno: Patatas a la Riojana",
+        "Comida: Sopa de pollo",
+        "Cena: Judías verdes",
+        "Colación: Fruta"
     ];
 
     // Mostrar la ventana modal del menú

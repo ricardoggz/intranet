@@ -166,6 +166,10 @@ p{
 .menuOptions li{
     cursor:pointer;
 }
+.menuOptions a {
+    color:#fff;
+    text-decoration: none;
+}
 @media (min-width:240px) and (max-width:900px){
     .header nav{
         flex-direction: column;
