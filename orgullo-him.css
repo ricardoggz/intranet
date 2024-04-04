@@ -6,6 +6,9 @@
     padding: 0;
 }
 body{
+    background: #fcbc8c;
+    background-position: bottom;
+    background-size: cover;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -27,10 +30,6 @@ header nav{
     width:20%;
 }
 .calendarWrapper{
-    background: #fcbc8c;
-    background-position: bottom;
-    background-size: cover;
-    height:105vh;
     padding:3rem 0;
 }
 .calendar , #nextMonthBtn{
@@ -169,6 +168,18 @@ p{
     color:#fff;
     text-decoration: none;
 }
+.fotos{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1rem;
+    width:80%;
+    margin: 0 auto;
+}
+.fotos figure{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
 @media (min-width:240px) and (max-width:900px){
     .header nav{
         flex-direction: column;
@@ -180,5 +191,8 @@ p{
     }
     .calendar{
         width:90%;
+    }
+    .fotos{
+        grid-template-columns: 1fr;
     }
 }
