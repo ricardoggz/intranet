@@ -182,4 +182,14 @@ p{
     .calendar{
         width:90%;
     }
+    .menuOptions ul{
+        flex-direction: column;
+    }
+    .calendarWrapper{
+        height:100%;
+    }
+    .letters{
+        margin:0;
+        padding: 1rem;
+    }
 }
