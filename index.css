@@ -204,4 +204,8 @@ p{
     .menuOptions ul{
         font-size:1rem;
     }
+    .modal-content{
+        margin: auto;
+        width:90%;
+    }
 }

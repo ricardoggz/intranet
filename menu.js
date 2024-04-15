@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Datos de ejemplo del menú
     const menu = [
-        "Desayuno: Patatas a la Riojana",
-        "Comida: Sopa de pollo",
-        "Cena: Judías verdes",
-        "Colación: Fruta"
+        "Desayuno: Bistec a la mexicana, mango, tortillas, café y pan",
+        "Comida: Arroz a la jardinera, costillas en salsa verde, frijoles, manzana, tortillas y agua",
+        "Cena: Tacos dorados de pollo, papaya, café y pan",
+        "Colación: Omelet de jamón, guayaba, café y pan"
     ];
 
     // Mostrar la ventana modal del menú
