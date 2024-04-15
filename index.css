@@ -158,7 +158,7 @@ p{
     color:#fff;
     display:flex;
     justify-content: end;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     gap:3rem;
     list-style: none;
     width:100%;
@@ -191,5 +191,17 @@ p{
     .letters{
         margin:0;
         padding: 1rem;
+    }
+    .letters img{
+        width:50%;
+    }
+    .himLogo, .intraLogo{
+        width:3rem;
+    }
+    #nextMonthBtn, #prevMonthBtn{
+        width:50%;
+    }
+    .menuOptions ul{
+        font-size:1rem;
     }
 }
