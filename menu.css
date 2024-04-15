@@ -1,0 +1,53 @@
+header{
+    padding:2rem 0;
+}
+header nav{
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    width:90%;
+}
+.menuOptions{
+    display: flex;
+    justify-content: end;
+    margin:0 auto;
+    padding:1rem;
+    width:80%;
+}
+.menuOptions ul{
+    color:#fff;
+    display:flex;
+    justify-content: end;
+    font-size: 1.2rem;
+    gap:3rem;
+    list-style: none;
+    width:100%;
+}
+.menuOptions li{
+    cursor:pointer;
+}
+.menuOptions a {
+    color:#fff;
+    text-decoration: none;
+}
+.himLogo{
+    width:5%;
+}
+.intraLogo{
+    width:20%;
+}
+
+@media (min-width:240px) and (max-width:900px){
+    .header nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menuOptions ul{
+        flex-direction: column;
+        font-size:1rem;
+    }
+    .himLogo, .intraLogo{
+        width:3rem;
+    }
+}
