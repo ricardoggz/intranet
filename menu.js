@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         ,{
             day: 'Domingo',
-            breakfast:'Hot god, papaya, café y pan',
+            breakfast:'Hot dog, papaya, café y pan',
             food:'Spaghetti rojo, lomo adobado, ensalada de lechuga, sandía, bolillo y agua',
             dinner:'Huevo a la mexicana, frijoles, guayaba, tortillas, café y pan',
             collation:'Salpicón de pollo, manzana, tostada, café y pan'
@@ -83,7 +83,9 @@ function showModal(modal, list) {
         listItem.textContent = item;*/
         /*contentList.appendChild(listItem);*/
         contentList.innerHTML+=`
-            <span>${item.day}</span>
+            <span>
+                <b>${item.day}</b>
+            </span>
             <li>Desayuno: ${item.breakfast}</li>
             <li>Comida: ${item.food}</li>
             <li>Cena: ${item.dinner}</li>
