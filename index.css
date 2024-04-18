@@ -16,7 +16,7 @@ body{
     background: url('./fondo-body.webp') no-repeat;
     background-position: bottom;
     background-size: cover;
-    height:105vh;
+    height:100%;
     padding:3rem 0;
 }
 .calendar , #nextMonthBtn{
