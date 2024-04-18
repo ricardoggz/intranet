@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const menu = [
         {
             day: 'Lunes',
-            breakfast:'Bistec a la mexicana, frjoles, mango, tortillas, café y pan',
+            breakfast:'Papas con chorizo',
             food:'Arroz a la jardinera, Costillas en salsa verde, frijoles, manzana, tortillas y agua',
             dinner:'Tacos dorados de pollo, papaya, café y pan',
             collation:'Omelet de jamón, guayaba, café y pan'
