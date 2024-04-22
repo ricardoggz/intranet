@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "BALTIERRA JIMENEZ MARIA DEL CARMEN",
                 "GUTIERREZ CAMACHO CLAUDIA",
                 "SALAZAR RIVERA JESUS JACOB",
-                "BALDERRABANO SAUCEDO NORMA ALICIA"
+                "BALDERRABANO SAUCEDO NORMA ALICIA",
+                "GOMEZ ARCE OFELIA LETICIA"
             ],
             2: [
                 "HAMDAN FUERTES LOURDES",
@@ -31,14 +32,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 "LEYVA HERNANDEZ BRENDA REBECA",
                 "CASILLAS FRANCO VERONICA XIMENA",
                 "MEJIA HERNANDEZ JOSE MARTIN",
-                "SALDAÑA PALMA LUIS ALBERTO"
+                "SALDAÑA PALMA LUIS ALBERTO",
+                "MALDONADO TINAJERO LETICIA",
+                "HERNANDEZ GRAJALES HILDA AIDEE"
             ],
             3: [
                 "HUESCAS VERGARA MARTIN",
                 "RAMON GARCIA GUILLERMO",
                 "MORENO CAMARILLO MARICRUZ ALICIA",
                 "ARELLANO LOPEZ NORMA",
-                "GARDUÑO ESPINOSA JUAN"
+                "GARDUÑO ESPINOSA JUAN",
+                "BLANCAS CARRASCO ARELI ALEJANDRA",
+                "FLORES GARCIA NERY DEL ROCIO"
             ],
             4: [
                 "PERALES ARROYO ANTONIO",
@@ -61,7 +66,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "MENA HERNANDEZ MARTHA LETICIA",
                 "CORTES ORTIZ BELINDA",
                 "TORRES CARIÑO MIRNA JUDITH",
-                "BETANZO PALACIOS ISABEL"
+                "BETANZO PALACIOS ISABEL",
+                "GARCIA GARCIA ALEJANDRO"
             ],
             7: [
                 "ESPINOSA HERNANDEZ DULCE NAYELY",
@@ -95,18 +101,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 "AGUIRRE ARREDONDO MARCELA",
                 "VARGAS ALFARO ARACELI",
                 "REYES PEREZ HERLINDA",
-                "MARIN GARCIA ESTELA"
+                "MARIN GARCIA ESTELA",
+                "IBAÑEZ VARGAS MAYELY MONTSERRAT"
             ],
             12:[
                 "HERNANDEZ CRUZ MAYTE GUADALUPE",
                 "CRUZ CAMPOS ASTRID",
-                "LOERA YEBRA ROSA MARIA"
+                "LOERA YEBRA ROSA MARIA",
+                "ALCANTARA VARGAS MARIA CRISTINA"
             ],
             13:[
                 "BRUNT GONZALEZ HORACIO",
                 "RUIZ GONZALEZ SERGIO",
                 "FRAUSTO ARTEAGA XOCHITL YESENIA",
-                "DOMINGUEZ OREA ERIKA JANET"
+                "DOMINGUEZ OREA ERIKA JANET",
+                "CERVERA NARANJO NORMA EVANGELINA"
             ],
             14:[
                 "SAAVEDRA MARTINEZ ENEDINA",
@@ -114,7 +123,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 "TELLES HERNANDEZ MARTHA PATRICIA",
                 "ARREDONDO JIMENEZ FRANCISCO JAVIER",
                 "LOPEZ CONTRERAS GABRIELA",
-                "PORTILLO GUTIERREZ MICHELL OSWALDO"
+                "PORTILLO GUTIERREZ MICHELL OSWALDO",
+                "CASTILLO REYES CRISTIAN ENRIQUE",
+                "FRAGOSO GALLO ENRIQUE",
+                "MARTINEZ HERNANDEZ IRMA ELIZABETH"
             ],
             15:[
                 "AVILES ROBLES MARTHA JOSEFINA",
@@ -131,7 +143,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 "MALDONADO SANCHEZ KELLY ARLETT",
                 "MALDONADO PINEDA ANA LAURA",
                 "LOPEZ GONZALEZ NANCY KARINA",
-                "RAMIREZ ALVAREZ JOSE ALFREDO"
+                "RAMIREZ ALVAREZ JOSE ALFREDO",
+                "CUENCA ALDANA CARLOS ALBERTO",
+                "CRUZ ESQUIVEL JOSE UBALDO"
             ],
             17:[
                 "MADRAZO CUELLAR MARIA DE JESUS",
@@ -156,7 +170,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "MORA MUÑOZ ILSE VALERIA",
                 "URIBE ROSAS ALEJANDRO",
                 "DOMINGUEZ HERNANDEZ JORGE",
-                "VAZQUEZ LOPEZ SILVIA"
+                "VAZQUEZ LOPEZ SILVIA",
+                "ACOPA RODRIGUEZ DULCE NAYELI"
             ],
             19:[
                 "CARBAJAL MALAGON HECTOR IVAN",
@@ -164,7 +179,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 "ROJAS ALARCON MARIA FERNANDA",
                 "AHEDO BARRERA MARIA ELENA",
                 "CAMPOS ANDRADE JAQUELINE",
-                "TORRES GONZALEZ LETICIA"
+                "TORRES GONZALEZ LETICIA",
+                "REYES APODACA MAGALI",
+                "ROMERO PALACIOS LIZETH"
             ],
             20:[
                 "GOMEZ RAMIREZ ANDREA",
@@ -196,7 +213,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 "BENITEZ CEDILLO LILIA ESTRELLA",
                 "ARROYO  RAMOS ROGELIO",
                 "PEREZ TRIVERA HORACIO",
-                "RAMIREZ ZALDIVAR BRAYAN JESUS"
+                "RAMIREZ ZALDIVAR BRAYAN JESUS",
+                "SANCHEZ LOPEZ MONICA",
+                "PINEDA TONIS JOCELIN"
             ],
             23:[
                 "MIER PRADO MARIA JOSE",
@@ -206,7 +225,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "LOPEZ RETAMA GUSTAVO",
                 "HILARIO BAUTISTA JACQUELINE",
                 "RODRIGUEZ PEREZ ESPERANZA KIKEY",
-                "PATIÑO LOPEZ GENARO"
+                "PATIÑO LOPEZ GENARO",
+                "MARTINEZ HERNANDEZ VIRGINIA SUSANA"
             ],
             24:[
                 "MENDOZA RODRIGUEZ PATRICIA KARINA",
@@ -218,14 +238,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 "AYALA CARREON MARGARITA",
                 "BARBA ORTEGA DANIEL ALEJANDRO",
                 "GOMEZ SOBERANES ROSA MARIA",
-                "MARTINEZ CRISTOBAL LEONEL"
+                "MARTINEZ CRISTOBAL LEONEL",
+                "CORTES CAMPOS ADRIAN"
             ],
             25:[
                 "LOPEZ HERNANDEZ RAMON",
                 "RODRIGUEZ SANTIAGO MAGDALENA SOFIA",
                 "PORTILLO RODRIGUEZ GLORIA",
                 "SANTANA RAMIREZ NARA YAHELY",
-                "OCHOA ARIAS MARCO ANTONIO"
+                "OCHOA ARIAS MARCO ANTONIO",
+                "VARGAS ESQUIVEL GERARDO GABRIEL"
             ],
             26:[
                 "MIGUEL MERECIAS ELIZABETH",
@@ -233,7 +255,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "OLMEDO MENDOZA REINA",
                 "CORONA GONZALEZ AMANDA",
                 "CONTRERAS RAMOS ALEJANDRA",
-                "ARENAS HUERTERO FRANCISCO JESUS"
+                "ARENAS HUERTERO FRANCISCO JESUS",
+                "ROCHA RAMIREZ LUZ MARIA"
             ],
             27:[
                 "COBIAN GALLARDO RENATA VICTORIA",
@@ -262,7 +285,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "PASTRANA ARROYO NORMA PAULA",
                 "CHAVEZ MALDONADO ARUY",
                 "VILLASEÑOR GUTIERREZ KITZIA KARLA",
-                "LEON RODRIGUEZ CANDY CELESTE"
+                "LEON RODRIGUEZ CANDY CELESTE",
+                "GONZALEZ SERRANO MARIA JULIA"
             ],
             31:[
                 "AVILES FANDIÑO JOSE MANUEL",
@@ -270,7 +294,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "IZCARRA GONZALEZ BERTHA",
                 "PEREZ PEREZ JESSICA",
                 "RODRIGUEZ AMADOR IRAIS",
-                "PASCUAL HERNANDEZ DIANA LAURA"
+                "PASCUAL HERNANDEZ DIANA LAURA",
+                "MARTINEZ VALVERDE SILVIA"
             ]
         }
         // Agrega más cumpleaños según sea necesario
