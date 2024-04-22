@@ -42,17 +42,17 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             day: 'Sábado',
-            breakfast:'Huevos rancheros, frijoles, mazana, café y pan',
-            food:'Arroz con zanahoria, enchiladas de mole, mango, agua',
-            dinner:'Milanesa, ensalada de lechuga, sandía, tortillas, café y pan',
-            collation:'Ensalada de huevo cocido, plátano, tostadas, café y pan'
+            breakfast:'Pollo al chipotle, plátano, café y pan',
+            food:'Tostadas de pata, pozole rojo, alegría, tostadas, agua',
+            dinner:'Tacos al pastor, guayaba, café y pan',
+            collation:'Bistec en salsa, pera, tortillas, café y pan'
         }
         ,{
             day: 'Domingo',
-            breakfast:'Hot dog, papaya, café y pan',
-            food:'Spaghetti rojo, lomo adobado, ensalada de lechuga, sandía, bolillo y agua',
-            dinner:'Huevo a la mexicana, frijoles, guayaba, tortillas, café y pan',
-            collation:'Salpicón de pollo, manzana, tostada, café y pan'
+            breakfast:'Alambre de pollo, naranja, tortillas, café y pan',
+            food:'Spaghetti rojo, pollo a la naranja, ensalada, mango, bolillo y agua',
+            dinner:'Huevo al albañil, papaya, tortillas, café y pan',
+            collation:'Ensalada mediterránea, pera, tostadas, café y pan'
         }
     ];
 

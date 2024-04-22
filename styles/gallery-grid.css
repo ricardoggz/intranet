@@ -56,7 +56,14 @@
     object-fit: cover;
     object-position: top;
 }
-
+.principal{
+    display:flex;
+    width:80%;
+    margin: 0 auto;
+}
+.principal img{
+    width:100%;
+}
 @media(max-width: 768px) {
     body {
         padding: 0;
