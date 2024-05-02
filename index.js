@@ -104,7 +104,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 "MARTINEZ CHAVEZ JOSE LUIS",
                 "ROMAN FELIX PAULINA LIZETH",
                 "SOLORZANO SANTOS FORTINO",
-                "SOLANO GAMBOA OMAR EDUARDO"
+                "SOLANO GAMBOA OMAR EDUARDO",
+                "ROSALES RODRIGUEZ KARINA"
             ],
             10:[
                 "SANCHEZ FIERROS DOLORES",
@@ -347,7 +348,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 "MARTINEZ VALVERDE SILVIA",
                 "SANCHEZ ROCHA HUGO GEOVANNI",
                 "LESCAS NAVA ISAAC",
-                "ROSALES RODRIGUEZ KARINA"
             ]
         }
         // Agrega más cumpleaños según sea necesario
