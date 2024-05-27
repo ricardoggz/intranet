@@ -36,23 +36,23 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             day: 'Viernes',
             breakfast:'Sopes, melón, café y pan',
-            food:'Arroz on zanahoria, pollo a la cacerola, sandía, tortillas y agua',
+            food:'Arroz con zanahoria, pollo a la cacerola, sandía, tortillas y agua',
             dinner:'Quesadillas de papa, uva, café y pan',
             collation:'Bistec a la mexicana, plátano, café y pan'
         },
         {
             day: 'Sábado',
-            breakfast:'Huevos rancheros, manzana, tortillas, café y pan',
-            food:'Arroz con zanahoria, enchiladas de mole, mango, agua',
-            dinner:'Milanesa, ensalada, sandía, tortillas, café y pan',
-            collation:'Huevos cocidos, ensalada, plátano, tostadas, café y pan'
+            breakfast:'Queso empanizado, ensalada, naranja, tortillas, café y pan',
+            food:'Caldo tlalpeño, tacos al pastor, ensalada de fruta, agua',
+            dinner:'Huevo guisado, frijoles, pera, tortillas, café y pan',
+            collation:'Hamburguesa con papas, naranja, café y pan'
         }
         ,{
             day: 'Domingo',
-            breakfast:'Hot dog, papaya, café y pan',
-            food:'Spaghetti rojo, lomo adobado, ensalada, sandía, pan y agua',
-            dinner:'Huevo a la mexicana, frijoles, guayaba, tortillas, café y pan',
-            collation:'Salpicón de pollo, manzana, tostadas, café y pan'
+            breakfast:'Enfrijoladas, sandía, café y pan',
+            food:'Ensalada de pepino, sopa de fideo, chilaquiles, alegría, agua',
+            dinner:'Bistec en salsa verde, guayaba, tortillas, café y pan',
+            collation:'Pozole, manzana, tostadas, café y pan'
         }
     ];
 
