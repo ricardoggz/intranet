@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Datos de ejemplo de cumpleañeros
     const birthdays = {
-        4: { // Abril
+        5: { // Abril
             1: [
                 'ROMERO ROMAN AIDE',
                 'RAMIREZ GARCIA ADRIANA YAZTMIN',
