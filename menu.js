@@ -7,52 +7,52 @@ document.addEventListener("DOMContentLoaded", function() {
     const menu = [
         {
             day: 'Lunes',
-            breakfast:'Huevos rancheros, plátano, café y pan',
-            food:'Tostadas de pata, pozole, alegría, tostadas y agua',
-            dinner:'Pollo frito, ensalada rusa, melón, tortillas, café y pan',
-            collation:'Chilaquiles, uva, café y pan'
+            breakfast:'Bistec a la mexicana, frijoles, mango, tortillas, café y pan',
+            food:'Arroz a la jardinera, costilla en salsa verde, frijoles, manzana, tortillas y agua',
+            dinner:'Tacos dorados, papaya, café y pan',
+            collation:'Omelette de jamón, guayaba, café y pan'
         },
         {
             day: 'Martes',
-            breakfast:'Longaniza con nopales, manzana, tortillas, cafe y pan',
-            food:'Arroz amarillo, cochinita, sandía, tortillas y agua',
-            dinner:'Hot cakes, guayaba, café y pan',
-            collation:'Pechuga empanizada, ensalada, manzana, tortillas, café y pan'
+            breakfast:'Chilaqules rojos, ensalada de fruta, café y pan',
+            food:'Crema de zanahoria, pechuga empanizada, ensalada, pera, tortillas y agua',
+            dinner:'Enchiladas mineras, manzana, café y pan',
+            collation:'Tinga de res, melón, tostadas, café y pan'
         },
         {
             day: 'Miércoles',
-            breakfast:'Ensalada rusa, uva, café y pan',
-            food:'Ensalada de pepino, sopa de fideo, chilaquiles, pera y agua',
-            dinner:'Sopes, sandía, café y pan',
-            collation:'Alambre, manzana, tortillas, café y pan'
+            breakfast:'Huevo al albañil, frijol, pera, tortillas, café y pan',
+            food:'Arroz con pimiento, mole de olla, mango, tortillas y agua',
+            dinner:'Tinga de pollo, plátano, tostadas, café y pan',
+            collation:'Croquetas de atún, manzana, tortillas, café y pan'
         },
         {
             day: 'Jueves',
-            breakfast:'Calabazas con queso, melón, tortillas, café y pan',
-            food:'Sopa de codito, cerdo en salsa de ciruela, ensalada de col, alegría, tortillas y agua',
-            dinner:'Huevo a la mexicana, frijoles, pera, tortillas, café y pan',
-            collation:'Tacos dorados, plátano, café y pan'
+            breakfast:'Menudo, plátano, tortillas, café y pan',
+            food:'Sopa de fideo, salpicón de res, alegría, tostadas y agua',
+            dinner:'Pechugas rellenas, ensalada, mango, café y pan',
+            collation:'Quesadillas de papa, plátano, café y pan'
         },
         {
             day: 'Viernes',
-            breakfast:'Enchiladas de mole, manzana, café y pan',
-            food:'Arroz a la jardinera, bistec con papas, frijoles, naranja, tortillas y agua',
-            dinner:'Calabazas con queso, manzana, tortillas, café y pan',
-            collation:'Omelette de champiñón, guayaba, café y pan'
+            breakfast:'Consomé de pollo, melón, tortillas, café y pan',
+            food:'Arroz con elote, ensalada verde con atún, manzana, galletas y agua',
+            dinner:'Calabazas rellenas, manzana, tortillas, café y pan',
+            collation:'Pechuga empanizada, ensalada, pera, tortillas, café y pan'
         },
         {
             day: 'Sábado',
-            breakfast:'Pechuga a la plancha, ensalada, manzana, tortillas, café y pan',
-            food:'Sopa de tortilla, milanesa, ensalada de nopales, naranja, tortillas y agua',
-            dinner:'Huevo con chorizo, frijoles, manzana, tortillas, café y pan',
-            collation:'Quesadillas de papa, plátano, café y pan'
+            breakfast:'Huevos rancheros, manzana, tortillas, café y pan',
+            food:'Arroz con zanahoria, enchiladas de mole, mango y agua',
+            dinner:'Milanesa, ensalada, sandía, tortillas, café y pan',
+            collation:'Chilaquiles, plátano, café y pan'
         }
         ,{
             day: 'Domingo',
-            breakfast:'Chicharrón rojo, melón, tortillas, café y pan',
-            food:'Sopa de fideo, tacos dorados, mango, pan y agua',
-            dinner:'Chilaquiles, plátano, café y pan',
-            collation:'Pechuga empanizada, pera, tortillas, café y pan'
+            breakfast:'Hot dog, papaya, café y pan',
+            food:'Spagueti rojo, lomo adobado, ensalada, sandía y agua',
+            dinner:'Huevo a la mexicana, guayaba, tortillas, café y pan',
+            collation:'Salpicón de pollo, manzana, café y pan'
         }
     ];
 

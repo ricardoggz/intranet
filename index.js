@@ -214,6 +214,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 'VAZQUEZ DIAZ RITHA ALEJANDRA'
             ],
             21:[
+                'GALA GIORDANO MARTÍNEZ',
                 'TRUJANO RODRIGUEZ VIRIDIANA DEL CARMEN',
                 'RAMIREZ VELA NANCY',
                 'MARTINEZ CARRION MARIBEL',
@@ -222,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 'BAYARDO ALCARAZ MARIA YAZMIN',
                 'ROMERO CEDILLO JOSE LUIS',
                 'ARANDA MENDOZA CLAUDIA',
-                'ACEVEDO JUAREZ KAREN'
+                'ACEVEDO JUAREZ KAREN',
             ],
             22:[
                 'PEREZ VILLANUEVA HEYNAR DE JESUS',
