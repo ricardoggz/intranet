@@ -7,52 +7,52 @@ document.addEventListener("DOMContentLoaded", function() {
     const menu = [
         {
             day: 'Lunes',
-            breakfast:'Papas con chorizo, manzana, tortillas, café y pan',
-            food:'Arroz con pimiento, cecina, ensalada de nopales, alegría, tortillas y agua',
-            dinner:'Tacos dorados, melón, café y pan',
-            collation:'Hojaldra de atún, uva, café y pan'
+            breakfast:'Sandwich de jamón, manzana, leche y pan',
+            food:'Sandwich de jamón, alegría, pera y agua',
+            dinner:'Hojaldras de jamón, manzana, leche y pan',
+            collation:'Tortas de jamón, pera, leche y pan'
         },
         {
             day: 'Martes',
-            breakfast:'Alambre de pollo, pera, tortillas, café y pan',
-            food:'Arroz a la jardinera, asado de res, manzana, tortillas y agua',
-            dinner:'Huarache de nopal, papaya, café y pan',
-            collation:'Lomo a a ciruela, ensalada, manzana, café y pan'
+            breakfast:'Sandwich de jamón, pera, leche y pan',
+            food:'Sandwich de jamón, alegría, manzana y agua',
+            dinner:'Hojaldras de jamón, mango, leche y pan',
+            collation:'Tortas de jamón, pera, leche y pan'
         },
         {
             day: 'Miércoles',
-            breakfast:'Enchiladas suizas, melón, café y pan',
-            food:'Caldo tlalpeño, picadillo, alegría, tostadas y agua',
-            dinner:'Hot dog, papas a la francesa, sandía, café y pan',
-            collation:'Huevos guisado, guayaba, café y pan'
+            breakfast:'Sandwich de jamón, manzana, leche y pan',
+            food:'Sandwich de jamón, alegría, pera y agua',
+            dinner:'Hojaldras de jamón, manzana, leche y pan',
+            collation:'Sandwich de jamón, pera, leche y pan'
         },
         {
             day: 'Jueves',
-            breakfast:'Chuleta a la mexicana, frijoles, naranja, tortillas, café y pan',
-            food:'Sopa de fideo, entomatado de res, guayaba, tortillas y agua',
-            dinner:'Chilorio, guayaba, tortillas, café y pan',
-            collation:'Papas con chorizo, manzana, tortillas, café y pan'
+            breakfast:'Sandwich de jamón, manzana, leche y pan',
+            food:'Sandwich de jamón, alegría, pera y agua',
+            dinner:'Tortas de jamón, pera, leche y pan',
+            collation:'Bollos de atún, manzana, leche y pan'
         },
         {
             day: 'Viernes',
-            breakfast:'Enfrijoladas, plátano, café y pan',
-            food:'Arroz amarillo, pescado empanizado, ensalada, tortillas y agua',
-            dinner:'Hojaldras de pollo, plátano, café y pan',
-            collation:'Bistec a la mexicana, frijoles, pera, tortillas, café y pan'
+            breakfast:'Sandwich de jamón, pera, leche y pan',
+            food:'Sandwich de jamón, alegría, manzana y agua',
+            dinner:'Tortas de jamón, pera, leche y pan',
+            collation:'Hojaldras de jamón, manzana, leche y pan'
         },
         {
             day: 'Sábado',
-            breakfast:'Pollo al chipotle, frijoles, plátano, tortillas, café y pan',
-            food:'Tostadas de pata, pozole, alegría, tostadas y agua',
-            dinner:'Tacos al pastor, guayaba, café y pan',
-            collation:'Bistec en salsa verde, pera, tortillas, café y pan'
+            breakfast:'Sandwich de jamón, manzana, leche y pan',
+            food:'Tortas de jamón, alegría, pera y agua',
+            dinner:'Sandwich de jamón, manzana, leche y pan',
+            collation:'Bollos de atún, manzana, leche y pan'
         }
         ,{
             day: 'Domingo',
-            breakfast:'Alambre de pollo, naranja, tortillas, café y pan',
-            food:'Spaguetti rojo, pollo a la naranja, ensalada, mango, agua y pan',
-            dinner:'Huevo al albañil, frijoles, papaya, tortillas, café y pan',
-            collation:'Tostadas de picadillo, pera, café y pan'
+            breakfast:'Bollo de jamón, pera, leche y pan',
+            food:'Tortas de jamón, alegría, manzana y agua',
+            dinner:'Bollos de atún, manzana, leche y pan',
+            collation:'Sandwich de jamón, pera, leche y pan'
         }
     ];
 
