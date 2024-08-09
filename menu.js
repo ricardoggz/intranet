@@ -7,52 +7,52 @@ document.addEventListener("DOMContentLoaded", function() {
     const menu = [
         {
             day: 'Lunes',
-            breakfast:'Bistec a la mexicana, frijoles, pera, tortillas, café y pan',
-            food:'Arroz a la jardinera, costillas en salsa verde, frijoles, manzana, tortillas y agua',
-            dinner:'Tacos dorados, papaya, café y pan',
-            collation:'Omelette de jamón, guayaba, café y pan'
+            breakfast:'PENDIENTE',
+            food:'PENDIENTE',
+            dinner:'PENDIENTE',
+            collation:'PENDIENTE'
         },
         {
             day: 'Martes',
-            breakfast:'Chilaquiles rojos, ensalada de fruta, café y pan',
-            food:'Crema de zanahoria, pechuga empanizada, ensalada, pera, tortillas y agua',
-            dinner:'Enchiladas mineras, manzana, café y pan',
-            collation:'Tinga de res, melón, tostadas, café y pan'
+            breakfast:'PENDIENTE',
+            food:'PENDIENTE',
+            dinner:'PENDIENTE',
+            collation:'PENDIENTE'
         },
         {
             day: 'Miércoles',
-            breakfast:'Huevo al albañil, frijol, pera, tortillas, café y pan',
-            food:'Arroz con pimiento, mole de olla, alegría, tortillas y agua',
-            dinner:'Tinga de pollo, plátano, tostadas, café y pan',
-            collation:'Croquetas de atún, manzana, tortillas, café y pan'
+            breakfast:'PENDIENTE',
+            food:'PENDIENTE',
+            dinner:'PENDIENTE',
+            collation:'PENDIENTE'
         },
         {
             day: 'Jueves',
-            breakfast:'Menudo, plátano, tortillas, café y pan',
-            food:'Sopa de fideo, salpicón de res, alegría, tostadas y agua',
-            dinner:'Pechugas rellenas, ensalada, plátano, café y pan',
-            collation:'Quesadillas de papa, melón, café y pan'
+            breakfast:'PENDIENTE',
+            food:'PENDIENTE',
+            dinner:'PENDIENTE',
+            collation:'PENDIENTE'
         },
         {
             day: 'Viernes',
-            breakfast:'Consomé de pollo, melón, tortillas, café y pan',
-            food:'Arroz con elote, ensalada verde con atún, galletas y agua',
-            dinner:'Calabazas rellenas, manzana, tortillas, café y pan',
-            collation:'Pechuga empanizada, ensalada, pera, tortillas, café y pan'
+            breakfast:'PENDIENTE',
+            food:'PENDIENTE',
+            dinner:'PENDIENTE',
+            collation:'PENDIENTE'
         },
         {
             day: 'Sábado',
-            breakfast:'Huevos rancheros, manzana, tortillas, café y pan',
-            food:'Aroz con zanahoria, enchiladas de mole, alegría, agua',
-            dinner:'Milanesa, ensalada, sandía, tortillas, café y pan',
-            collation:'Chilaquiles, plátano, café y pan'
+            breakfast:'PENDIENTE',
+            food:'PENDIENTE',
+            dinner:'PENDIENTE',
+            collation:'PENDIENTE'
         }
         ,{
             day: 'Domingo',
-            breakfast:'Sopes de pollo, papaya, café y pan',
-            food:'Spaguetti rojo, lamo adobado, ensalada, sandía y agua',
-            dinner:'Huevo a la mexicana, guayaba, tortillas, café y pan',
-            collation:'Salpicón de pollo, manzana, café y pan'
+            breakfast:'PENDIENTE',
+            food:'PENDIENTE',
+            dinner:'PENDIENTE',
+            collation:'PENDIENTE'
         }
     ];
 
